@@ -1,0 +1,79 @@
+\documentclass[akbc,twoside,11pt,lettersize]{article}
+\usepackage{akbc}
+\usepackage{graphicx}
+\usepackage[german]{isodate}
+\akbcheading
+
+% Select type of exposé
+\project
+% \bachelorthesis
+% \masterthesis
+
+\draftcopy % Comment for final version.
+\begin{document}
+
+\title{Exposé template}
+
+\author{\name Your name \email email@example.com \\
+\AND
+\name Supervisor1 name \email email@example.com \\
+\AND
+\name Supervisor2 name  \email email@example.com}
+
+% \\
+%       \name Andy Philips \email philips@ptolemy.arc.nasa.gov \\
+%       \addr NASA Ames Research Center, Mail Stop: 244-7,\\
+%       Moffett Field, CA  94035 USA
+%       \AND
+%       \name Mark D. Johnston \email johnston@stsci.edu \\
+%       \addr Space Telescope Science Institute,
+%       3700 San Martin Drive,\\
+%       Baltimore, MD 21218 USA
+%       \AND
+%       \name Philip Laird \email laird@ptolemy.arc.nasa.gov \\
+%       \addr NASA Ames Research Center,
+%       AI Research Branch, Mail Stop: 269-2,\\
+%       Moffett Field, CA  94035 USA}
+
+% For research notes, remove the comment character in the line below.
+% \researchnote
+
+\maketitle
+
+% \begin{abstract}
+% \end{abstract}
+
+\section{Introduction}
+\label{Introduction}
+
+    A citation in brackets:~\cite{lecun2015deep}. \\
+    A citation in text: \citet{lecun2015deep}.
+    
+    \subsection{A subsection.}
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.3\textwidth]{example-image-a}
+    \caption{A figure.}
+    \label{figure1}
+    \end{figure}
+
+\section{Related work}
+\label{related_work}
+
+    [section ommitted]
+
+\section{Method}
+\label{method}
+
+    [section ommitted]
+
+\section{Experiments}
+\label{experiments}
+ 
+    [section ommitted]
+
+\bibliography{bibliography}
+\bibliographystyle{acl_natbib}
+
+\end{document}
