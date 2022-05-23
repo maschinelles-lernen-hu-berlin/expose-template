@@ -3,6 +3,7 @@
 \usepackage{graphicx}
 \usepackage[german]{isodate}
 \akbcheading
+\usepackage{hyperref}
 
 % Select type of exposé
 \project
@@ -30,8 +31,6 @@
 
     A citation in brackets:~\cite{lecun2015deep}. \\
     A citation in text: \citet{lecun2015deep}.
-    
-    \subsection{A subsection.}
 
     \begin{figure}[h]
         \centering
@@ -40,15 +39,65 @@
     \label{figure1}
     \end{figure}
 
+\begin{itemize}
+    \item Context: Give a brief overview of the problem area!
+\end{itemize}    
+
 \section{Related work}
 \label{related_work}
 
-    [section ommitted]
+\begin{itemize}
+    \item State of the Art and related work: Briefly discuss the approaches and results that have already been presented in this or related areas (at least the 5 most important papers)!
+\end{itemize}  
+
+\section{Goal of the Project / Thesis}
+
+\paragraph{Problem Statement}
+
+\begin{itemize}
+    \item What is the problem that your project/thesis addresses? 
+    \begin{itemize}
+        \item The problem should logically follow from the description of the state of the art. Clearly describe the need for research.
+        \item What is unknown? What has been ignored or understudied? What could be improved? what are the limitations of current solutions (if solutions already exist)?
+    \end{itemize}
+    \item Why is it a significant (interesting/important) problem?
+\end{itemize}  
+
+\paragraph{Research Objective(s)}
+
+\begin{itemize}
+    \item Which specific research question(s) will you try to answer? 
+    \begin{itemize}
+        \item How to define a good question: \href{https://www.youtube.com/watch?v=89NonP_iZZo}{Here}
+    \end{itemize}
+    \item \textbf{OR:} Which particular problem(s) will you try to solve?
+	\begin{itemize}
+	    \item Which sub problems do you derive and address in your project/thesis?
+	\end{itemize}
+	\item \textbf{OR:} Which hypotheses will you investigate?
+\end{itemize}
+
+\paragraph{Expected Results}
+\begin{itemize}
+    \item Which specific results shall the project achieve? Clearly describe your expected contribution: 
+    \begin{itemize}
+        \item What will be known afterwards that is not known now? / What will be created that does not exist now? Whom will this benefit? why is it important?
+    \end{itemize}
+\end{itemize}
+
+  
 
 \section{Method}
 \label{method}
 
-    [section ommitted]
+\begin{itemize}
+    \item Which specific tasks will you perform to achieve the objectives and expected results?
+    \item What methods will you apply to accomplish each task, e.g., literature research, empirical study, prototype implementation, quantitative or qualitative evaluation etc.?
+    \item How will you evaluate the fulfillment of you research objective(s)? How will you show that you answered the question, measure how well you solved the problem, or proof that the hypothesis held? 
+    \item Which tools, datasets etc. do you plan to use?
+\end{itemize}
+
+
 
 \section{Experiments}
 \label{experiments}
